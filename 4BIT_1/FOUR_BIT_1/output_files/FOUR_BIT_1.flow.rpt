@@ -1,5 +1,5 @@
 Flow report for FOUR_BIT_1
-Mon Jun 03 17:02:48 2024
+Mon Jun 03 23:26:11 2024
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Flow Summary                                                        ;
 +-----------------------+---------------------------------------------+
-; Flow Status           ; Successful - Mon Jun 03 17:02:48 2024       ;
+; Flow Status           ; Successful - Mon Jun 03 23:26:11 2024       ;
 ; Quartus Prime Version ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name         ; FOUR_BIT_1                                  ;
 ; Top-level Entity Name ; DUT                                         ;
@@ -60,7 +60,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/03/2024 17:02:35 ;
+; Start date & time ; 06/03/2024 23:25:57 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; FOUR_BIT_1          ;
 +-------------------+---------------------+
@@ -71,7 +71,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+---------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                           ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+---------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 118902016561618.171741435510756 ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 118902016561618.171743735718628 ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; dut_instance                    ; --            ; --          ; Testbench                         ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                             ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                             ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -99,12 +99,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4761 MB             ; 00:00:11                           ;
-; Fitter               ; 00:00:01     ; 1.0                     ; 5524 MB             ; 00:00:01                           ;
+; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4757 MB             ; 00:00:15                           ;
+; Fitter               ; 00:00:01     ; 1.0                     ; 5527 MB             ; 00:00:01                           ;
 ; Assembler            ; 00:00:00     ; 1.0                     ; 4662 MB             ; 00:00:00                           ;
 ; Timing Analyzer      ; 00:00:01     ; 1.0                     ; 4682 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4623 MB             ; 00:00:00                           ;
-; Total                ; 00:00:10     ; --                      ; --                  ; 00:00:13                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4623 MB             ; 00:00:00                           ;
+; Total                ; 00:00:10     ; --                      ; --                  ; 00:00:17                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

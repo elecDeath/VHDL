@@ -23,9 +23,9 @@ VU7DI`Tzl@EfAQ?4z53E2F2
 !s100 1`nWBgISBZCVoBKm`L3TM3
 Z6 OV;C;2020.1;71
 31
-Z7 !s110 1717414395
+Z7 !s110 1717437386
 !i10b 1
-Z8 !s108 1717414395.000000
+Z8 !s108 1717437386.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|D:/Quartus_prac/4BIT_1/FOUR_BIT_1/Gates.vhdl|
 Z10 !s107 D:/Quartus_prac/4BIT_1/FOUR_BIT_1/Gates.vhdl|
 !i113 1
@@ -51,7 +51,7 @@ R10
 R11
 R12
 Edut
-Z13 w1717414101
+Z13 w1717437140
 R2
 R3
 !i122 2
@@ -77,10 +77,10 @@ R2
 R3
 DEx4 work 3 dut 0 22 9VL2<nCbj18A4;og>oIXj3
 !i122 2
-l20
-L13 15
-V1kWjd7WYWg`cb3oEG0[743
-!s100 b_acN1K^SeD`bDJ`J20>C0
+l22
+L13 17
+VeITXFjHe6kz5K7iQJlTZW1
+!s100 He?jbnJEoIRbe;N?ML1042
 R6
 31
 R7
@@ -92,7 +92,7 @@ R17
 R11
 R12
 Efour_bit_1
-Z18 w1717413518
+Z18 w1717437034
 R2
 R3
 !i122 3
@@ -100,9 +100,9 @@ R0
 Z19 8D:/Quartus_prac/4BIT_1/FOUR_BIT_1/FOUR_BIT_1.vhd
 Z20 FD:/Quartus_prac/4BIT_1/FOUR_BIT_1/FOUR_BIT_1.vhd
 l0
-L5 1
-VB[4RgKl1;R_M6hl:ioIl?0
-!s100 ]LKeM5Fi0iYWF6]DR`eK80
+L6 1
+Vm_ibOKklKb7C61d]gUOh=3
+!s100 =IHA5F@WQC6^2[Bf9VjMZ3
 R6
 31
 R7
@@ -116,12 +116,12 @@ R12
 Astruct
 R2
 R3
-DEx4 work 10 four_bit_1 0 22 B[4RgKl1;R_M6hl:ioIl?0
+DEx4 work 10 four_bit_1 0 22 m_ibOKklKb7C61d]gUOh=3
 !i122 3
-l18
-L9 23
-VR^KJ@lnZa<Nc9;T3EMS;V1
-!s100 iCT@[S0:^8bHh9NQY5XzI2
+l21
+L12 23
+VKcf@zE^[JczBWSDYQXRPm3
+!s100 7^WaTbHVU5PNz>ZhCo9Ck2
 R6
 31
 R7
@@ -496,10 +496,10 @@ V]iKK_Z9L:G9B:i8c]3eFH0
 !s100 bWf8kl8zb90X@P1m>V^K20
 R6
 31
-R7
+Z31 !s110 1717437387
 !i10b 1
 R8
-Z31 !s90 -reportprogress|300|-93|-work|work|D:/Quartus_prac/4BIT_1/FOUR_BIT_1/Testbench.vhdl|
+Z32 !s90 -reportprogress|300|-93|-work|work|D:/Quartus_prac/4BIT_1/FOUR_BIT_1/Testbench.vhdl|
 !s107 D:/Quartus_prac/4BIT_1/FOUR_BIT_1/Testbench.vhdl|
 !i113 1
 R11
@@ -515,11 +515,11 @@ VbUP;01Z1GFWTBPRVhU:BB3
 !s100 Z3I:TjUD>?T2__5USb_=71
 R6
 31
-R7
+R31
 !i10b 1
 R8
-R31
-Z32 !s107 D:/Quartus_prac/4BIT_1/FOUR_BIT_1/Testbench.vhdl|
+R32
+Z33 !s107 D:/Quartus_prac/4BIT_1/FOUR_BIT_1/Testbench.vhdl|
 !i113 1
 R11
 R12
@@ -565,14 +565,14 @@ R10
 R11
 R12
 Exor_1
-Z33 w1717402771
-Z34 DPx4 work 5 gates 0 22 @eB5S<QWaBmXNA4jc;3?G2
+Z34 w1717402771
+Z35 DPx4 work 5 gates 0 22 @eB5S<QWaBmXNA4jc;3?G2
 R2
 R3
 !i122 4
 R0
-Z35 8D:/Quartus_prac/XOR_1/XOR_1.vhd
-Z36 FD:/Quartus_prac/XOR_1/XOR_1.vhd
+Z36 8D:/Quartus_prac/XOR_1/XOR_1.vhd
+Z37 FD:/Quartus_prac/XOR_1/XOR_1.vhd
 l0
 L6 1
 V2@RMhHF<BTA15Co^>8dUQ0
@@ -582,13 +582,13 @@ R6
 R7
 !i10b 1
 R8
-Z37 !s90 -reportprogress|300|-93|-work|work|D:/Quartus_prac/XOR_1/XOR_1.vhd|
-Z38 !s107 D:/Quartus_prac/XOR_1/XOR_1.vhd|
+Z38 !s90 -reportprogress|300|-93|-work|work|D:/Quartus_prac/XOR_1/XOR_1.vhd|
+Z39 !s107 D:/Quartus_prac/XOR_1/XOR_1.vhd|
 !i113 1
 R11
 R12
 Astructure
-R34
+R35
 R2
 R3
 DEx4 work 5 xor_1 0 22 2@RMhHF<BTA15Co^>8dUQ0
@@ -602,8 +602,8 @@ R6
 R7
 !i10b 1
 R8
-R37
 R38
+R39
 !i113 1
 R11
 R12

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for FOUR_BIT_1
-Mon Jun 03 17:02:42 2024
+Mon Jun 03 23:26:05 2024
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Mon Jun 03 17:02:42 2024       ;
+; Analysis & Synthesis Status ; Successful - Mon Jun 03 23:26:05 2024       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; FOUR_BIT_1                                  ;
 ; Top-level Entity Name       ; DUT                                         ;
@@ -233,7 +233,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Jun 03 17:02:35 2024
+    Info: Processing started: Mon Jun 03 23:25:57 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FOUR_BIT_1 -c FOUR_BIT_1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -272,13 +272,13 @@ Info (12021): Found 2 design units, including 1 entities, in source file dut.vhd
     Info (12022): Found design unit 1: DUT-DutWrap File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/DUT.vhdl Line: 13
     Info (12023): Found entity 1: DUT File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/DUT.vhdl Line: 8
 Info (12021): Found 2 design units, including 1 entities, in source file four_bit_1.vhd
-    Info (12022): Found design unit 1: FOUR_BIT_1-Struct File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/FOUR_BIT_1.vhd Line: 9
-    Info (12023): Found entity 1: FOUR_BIT_1 File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/FOUR_BIT_1.vhd Line: 5
+    Info (12022): Found design unit 1: FOUR_BIT_1-Struct File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/FOUR_BIT_1.vhd Line: 12
+    Info (12023): Found entity 1: FOUR_BIT_1 File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/FOUR_BIT_1.vhd Line: 6
 Info (12127): Elaborating entity "DUT" for the top level hierarchy
-Info (12128): Elaborating entity "FOUR_BIT_1" for hierarchy "FOUR_BIT_1:dut_instance" File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/DUT.vhdl Line: 24
-Info (12128): Elaborating entity "XOR_1" for hierarchy "FOUR_BIT_1:dut_instance|XOR_1:X0" File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/FOUR_BIT_1.vhd Line: 19
+Info (12128): Elaborating entity "FOUR_BIT_1" for hierarchy "FOUR_BIT_1:dut_instance" File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/DUT.vhdl Line: 26
+Info (12128): Elaborating entity "XOR_1" for hierarchy "FOUR_BIT_1:dut_instance|XOR_1:X0" File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/FOUR_BIT_1.vhd Line: 22
 Info (12128): Elaborating entity "NAND_2" for hierarchy "FOUR_BIT_1:dut_instance|XOR_1:X0|NAND_2:inst1" File: D:/Quartus_prac/XOR_1/XOR_1.vhd Line: 15
-Info (12128): Elaborating entity "FullAdder" for hierarchy "FOUR_BIT_1:dut_instance|FullAdder:F0" File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/FOUR_BIT_1.vhd Line: 20
+Info (12128): Elaborating entity "FullAdder" for hierarchy "FOUR_BIT_1:dut_instance|FullAdder:F0" File: D:/Quartus_prac/4BIT_1/FOUR_BIT_1/FOUR_BIT_1.vhd Line: 23
 Info (12128): Elaborating entity "HalfAdder" for hierarchy "FOUR_BIT_1:dut_instance|FullAdder:F0|HalfAdder:HA1" File: D:/Quartus_prac/4BIT_1/FullAdder/FullAdder.vhd Line: 65
 Info (12128): Elaborating entity "Or2in" for hierarchy "FOUR_BIT_1:dut_instance|FullAdder:F0|Or2in:cmbn" File: D:/Quartus_prac/4BIT_1/FullAdder/FullAdder.vhd Line: 83
 Info (21057): Implemented 24 device resources after synthesis - the final resource count might be different
@@ -286,9 +286,9 @@ Info (21057): Implemented 24 device resources after synthesis - the final resour
     Info (21059): Implemented 5 output pins
     Info (21061): Implemented 10 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4761 megabytes
-    Info: Processing ended: Mon Jun 03 17:02:42 2024
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:11
+    Info: Peak virtual memory: 4757 megabytes
+    Info: Processing ended: Mon Jun 03 23:26:05 2024
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:15
 
 
