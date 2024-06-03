@@ -1,0 +1,40 @@
+|DUT
+input_vector[0] => Full_Subtractor:add_instance.Bin
+input_vector[1] => Full_Subtractor:add_instance.B
+input_vector[2] => Full_Subtractor:add_instance.A
+output_vector[0] << Full_Subtractor:add_instance.Bout
+output_vector[1] << Full_Subtractor:add_instance.D
+
+
+|DUT|Full_subtractor:add_instance
+A => Half_subtractor:HS1.A
+B => Half_subtractor:HS1.B
+Bin => Half_subtractor:HS2.B
+D <= Half_subtractor:HS2.D
+Bout <= Or2in:OR1.Y
+
+
+|DUT|Full_subtractor:add_instance|Half_subtractor:HS1
+A => D.IN0
+A => Bout.IN0
+B => D.IN1
+B => Bout.IN1
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|Half_subtractor:HS2
+A => D.IN0
+A => Bout.IN0
+B => D.IN1
+B => Bout.IN1
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|Or2in:OR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

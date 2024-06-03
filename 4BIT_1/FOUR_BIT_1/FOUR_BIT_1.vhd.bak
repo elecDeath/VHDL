@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity FOUR_BIT_1  is 
+port (in1,in2,in3:in std_logic; Cout,S:out std_logic);
+end entity;
+
+architecture Struct of FOUR_BIT_1 is 
+
+component XOR_1 is 
+port (in1,in2:in std_logic;out1:out std_logic);
+end component ;
+component FullAdder is 
+port (a,b,C_in:in std_logic;sum,C_out:out std_logic);
+end component ;
+signal T1:std_logic;
+begin 
+F1:XOR_1 port map (in1=>in1,in2=>in3,out1=>T1);
+F2:FullAdder port map(a=>in1,b=>T1,C_in=>in3,sum=>S,C_out=>Cout);
+end architecture ;

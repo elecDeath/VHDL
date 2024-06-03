@@ -1,0 +1,40 @@
+|DUT
+input_vector[0] => FullAdder:dut_instance.a
+input_vector[1] => FullAdder:dut_instance.b
+input_vector[2] => FullAdder:dut_instance.C_in
+output_vector[0] << FullAdder:dut_instance.C_out
+output_vector[1] << FullAdder:dut_instance.sum
+
+
+|DUT|FullAdder:dut_instance
+a => HalfAdder:HA1.a
+b => HalfAdder:HA1.b
+C_in => HalfAdder:HA2.b
+sum <= HalfAdder:HA2.s
+C_out <= Or2in:cmbn.aorb
+
+
+|DUT|FullAdder:dut_instance|HalfAdder:HA1
+a => s.IN0
+a => cy.IN0
+b => s.IN1
+b => cy.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cy <= cy.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|FullAdder:dut_instance|HalfAdder:HA2
+a => s.IN0
+a => cy.IN0
+b => s.IN1
+b => cy.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cy <= cy.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|FullAdder:dut_instance|Or2in:cmbn
+a => aorb.IN0
+b => aorb.IN1
+aorb <= aorb.DB_MAX_OUTPUT_PORT_TYPE
+
+
